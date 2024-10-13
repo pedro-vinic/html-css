@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Mono+One&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 40px;    
+}
+
+.titulo {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulo span {
+    color: blue;
+}
+
+.texto {
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#principal {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+#frase_principal {
+    font-size: 10px;
+}
+
+.sobre_nos {
+    color: white;
+    background-color: blue;
+    padding: 0px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sobre_nos_texto {
+    margin-left: 0px;
+}
+
+ol {
+    text-decoration: underline;
+}
+
+.rodape {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border-color: black;
+    background-color: black;
+    padding: 5px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
