@@ -1,0 +1,14 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}

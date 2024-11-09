@@ -1,0 +1,40 @@
+.header {
+    display: flex; 
+    flex-wrap: wrap; /*Permite que os elementos entro do header sejam quebrados se o espaço horizontal estiver limitado.*/
+    justify-content: space-between; /*Distribui os elementos um para cada canto.*/
+    align-items: center;
+    padding: 3vh 8vw;
+    box-shadow: 6px 2px 4px rgba(0, 0, 0, 2) /*Criando a sombra da borda do menu.*/
+}
+
+.header-logo {
+    flex-grow: 1; /*Define a capacidade do crescimento do elemento para preencher o espaço do container.*/
+    color: blue;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.header-nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4vw; /*O espaço horizontal de 4 unidades de largura entre os elementos.*/
+    flex-grow: 1;
+}
+
+.header-nav-link {
+    text-decoration: none; /*Sem decoração de texto.*/
+    color: black;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.header-nav-link:hover { /*Pseudo classe. Quando eu passo o mouse a letra e a borda inferior fica azul.*/
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.header-nav-link:focus { /*Assim que eu clicar em elemento, ele se mantem em azul.*/
+    color: blue;
+    border-bottom: 2px solid blue;
+}
